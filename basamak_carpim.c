@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 int main(){
-	while(1){
+while(1){
 	int sayi;
 	char dizi[100];
 	printf("Sayiyi giriniz: \n");
@@ -21,7 +21,7 @@ int main(){
 		printf("%d",basamak[k]);
 	}*/
 	for(k=0;k<uzunluk;k+=1){
-	carpim = carpim * basamak[k];
+		carpim = carpim * basamak[k];
 	}
 	printf("Carpim: %d\n",carpim);
 }
