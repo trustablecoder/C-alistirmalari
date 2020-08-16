@@ -1,5 +1,5 @@
 /*
-Kaç tane sayı girileceği ve aritmetik ortalaması alınacak olan sayıların kullanıcı tarafından girilip aritmetik ortalamanın bulunduğu C kodu.
+Sayı miktarı ve sayıların kullanıcı tarafından girilip aritmetik ortalaması hesaplanan c kodu.
 */
 #include <stdio.h>
 
