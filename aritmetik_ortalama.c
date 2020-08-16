@@ -22,4 +22,5 @@ int main () {
 
 	ortalama = toplam/n;
 	printf("Ortalama: %d",ortalama);
+	return 0;
 }
