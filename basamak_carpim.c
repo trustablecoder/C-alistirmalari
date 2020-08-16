@@ -1,17 +1,3 @@
-//DIŞARIDAN GİRİLEN SAYININ BASAMAKLARININ ÇARPIMINI ÇIKTI OLARAK VEREN C KODU
-
-#include <stdio.h>
-#include <string.h>
-int main(){
-	while(1){
-	int sayi;
-	char dizi[100];
-	printf("Sayiyi giriniz: \n");
-	scanf("%d", &sayi);
-	sprintf(dizi, "%d", sayi);
-	int uzunluk = strlen(dizi);
-	//printf("%d %d",uzunluk,sayi);
-	int basa
 #include <stdio.h>
 #include <string.h>
 int main(){
