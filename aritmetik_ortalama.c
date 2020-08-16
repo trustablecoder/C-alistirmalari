@@ -6,25 +6,23 @@ Kaç tane sayı girileceği ve aritmetik ortalaması alınacak olan sayıların 
 	int main () 
     {
 		
-		int n=0, toplam = 0, i, ortalama;
+	 	int n=0, toplam = 0, i, ortalama;
 		
 		printf("Lutfen sayi miktarini giriniz: \n");
 		scanf ("%d", &n);
 		
-        int a[n];
+        	int a[n];
 		
-        printf("Lutfen artimetik ortalamasi alinacak sayilari giriniz: \n");
+        	printf("Lutfen artimetik ortalamasi alinacak sayilari giriniz: \n");
 		
-        for (i=0; i<n; i+=1)
-		{
+        	for (i=0; i<n; i+=1)
+			{
 			scanf("%d", &a[i]);
 			toplam = a[i]+ toplam;
-		}
+			}
 	
 		ortalama = toplam/n;
 		
 		printf("Ortalama: %d",ortalama);
-		
-        getch();
-        return 0;
+        	return 0;
 	}
