@@ -12,7 +12,7 @@ int main () {
 	int toplam = 0;
 	int ortalama;
 	int a[n];
-	printf("Lutfen artimetik ortalamasi alinacak sayilari giriniz: ");
+	printf("Lutfen artimetik ortalamasi alinacak sayilari giriniz: \n");
 	for (i=0; i<n; i+=1){
 		scanf("%d", &a[i]);
 	}
