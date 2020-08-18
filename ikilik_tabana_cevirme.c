@@ -17,7 +17,7 @@ int main(){
 	
     sprintf(dizi, "%d", ikilik); //int tipinde olan sayıyı diziye dönüştürdü.
     int uzunluk = strlen(dizi);
-    for (i=0; i<uzunluk; i+=1){
+    for (i=0; i<uzunluk; i++){
     	basamak[i]=ikilik % 10;
     	ikilik = ikilik/10;
     	if (basamak[i]==1)
