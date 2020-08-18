@@ -11,16 +11,16 @@ while(1){
 	//printf("%d %d",uzunluk,sayi);
 	int basamak[uzunluk];
 	int i;
-	for(i=0; i<uzunluk; i+=1){
+	for(i=0; i<uzunluk; i++){
 		basamak[i]=sayi%10;
 		sayi= sayi/10;
 		}
 	int k;
 	int carpim=1;
-	/*for(k=0;k<uzunluk;k+=1){
+	/*for(k=0;k<uzunluk;k++){
 		printf("%d",basamak[k]);
 	}*/
-	for(k=0;k<uzunluk;k+=1){
+	for(k=0;k<uzunluk;k++){
 		carpim = carpim * basamak[k];
 	}
 	printf("Carpim: %d\n",carpim);
