@@ -1,4 +1,4 @@
-/*Klavyeden ikilik (binary – 2) tabanda girilen 8 bitlik sayının onluk (Decimal -10) tabandaki karşılığını ekrana yazan program*/
+/*Klavyeden ikilik (binary â€“ 2) tabanda girilen 8 bitlik sayÄ±nÄ±n onluk (Decimal -10) tabandaki karÅŸÄ±lÄ±ÄŸÄ±nÄ± ekrana yazan program*/
 
 #include <stdio.h>
 #include <string.h>
@@ -10,7 +10,7 @@ int main(){
 	char dizi[100];
 	printf("Onluk tabana cevrilmesi istenen ikilik sayiyi yaziniz: \n");
 	scanf("%d", &ikilik);
-	sprintf(dizi, "%d", ikilik); //int tipinde olan sayıyı diziye dönüştürdü.
+	sprintf(dizi, "%d", ikilik); //int tipinde olan sayÄ±yÄ± diziye dÃ¶nÃ¼ÅŸtÃ¼rdÃ¼.
     int uzunluk = strlen(dizi);
     	
 		if ((ikilik<0) || (ikilik !=0) || (ikilik !=1) || (uzunluk != 8)){
