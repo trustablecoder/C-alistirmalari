@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-//String.h kütüphanesinin içinde zaten olan strcat fonksiyonunu kullanmadan aynı işlemi yapan kod.
+//String.h kÃ¼tÃ¼phanesinin iÃ§inde zaten olan strcat fonksiyonunu kullanmadan aynÃ½ iÃ¾lemi yapan kod.
 
 void mystrcat(char *string1, char *string2){
 	char *ptr1;
