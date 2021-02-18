@@ -3,7 +3,7 @@
 #include <time.h>
 
 int main(){
-	int **matris; //iki boyutlu dizi oluşturma
+	int **matris; //iki boyutlu dizi oluÅŸturma
 	int satir, sutun;
 	printf("Satir sayisini giriniz: ");
 	scanf("%d", &satir);
@@ -11,15 +11,15 @@ int main(){
 	scanf("%d", &sutun);
 	srand(time(NULL));
 	
-	matris = (int **)malloc(sizeof(int *)*satir); //satır sayısı kadar yer açma
+	matris = (int **)malloc(sizeof(int *)*satir); //satÄ±r sayÄ±sÄ± kadar yer aÃ§ma
 	
 	int i,k;
 	for (i=0;i<satir;i++){
-		matris[i]=(int *)malloc(sizeof(int)*sutun); //her satıra sutun sayısı kadar yer açma
+		matris[i]=(int *)malloc(sizeof(int)*sutun); //her satÄ±ra sutun sayÄ±sÄ± kadar yer aÃ§ma
 	}
 	for(i=0;i<satir;i++){
 		for(k=0;k<sutun;k++){
-			matris[i][k]=rand()%100; //rasgele değer atama
+			matris[i][k]=rand()%100; //rasgele deÄŸer atama
 		}
 	}
 	
@@ -29,6 +29,12 @@ int main(){
 		}
 		printf("\n");
 	}
+	
+	
+	for(i=0;i<satir;i++){
+		free(matris[i]);
+	}
+	free(matris);
 
 
 
